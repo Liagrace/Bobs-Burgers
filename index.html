@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+
+    <title> Bob's Burgers</title>
+
+</head>
+
+<body style="background-color: #F7E800;">
+
+    <br>
+    <div class="row">
+        <div class="logo-wrapper col-12">
+            <img class="img-fluid center-block" src="Title.png" alt="logo">
+        </div>
+    </div>
+
+    <br>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"> <img src="Icon.png" width="80" height="80" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#anchor-menu"> Menu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#anchor-bofd">Burger of the Day</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ancor-team">Meet the Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#anchor-location">Location</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+   <div>
+    <a name="anchor-menu"></a>
+        <div class="row">
+            <div class="logo-wrapper col-12">
+                <img id="menu" class="img-fluid center-block" style="margin: 80px;" src="menu1.png" alt="logo">
+            </div>
+        </div>
+    </div>
+    <a id="anchor-bofd" > </a>
+    <div class="Burgers">
+        <p> Burgers of the week </p> 
+    </div>
+    <div class="scrollmenu">
+        <img src="img.1.png" width="250px">
+        <img src="img.2.png" width="250px">
+        <img src="img.3.png" width="250px">
+        <img src="img.4.png" width="250px">
+        <img src="img.5.png" width="250px">
+        <img src="img.6.png" width="250px">
+        <img src="img.7.png" width="250px">
+        <img src="img.8.png" width="250px">
+        <img src="img.9.png" width="250px">
+        <img src="img.10.png" width="250px">
+        <img src="img.11.png" width="250px">
+        <img src="img.12.png" width="250px">
+    </div>
+
+    <div class="team">
+        <p id="ancor-team" style="font-size: 60px;">Meet the Team</p>
+        <div class="card-deck">
+            <div class="card">
+                <img src="bob.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <br>
+                    <br>
+                    <h5 class="card-title">Bob</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Linda.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <h5 class="card-title">Linda</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="tina2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Tina</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gene.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="card-title">Gene</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="louise.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Louise</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <p id="anchor-location"> Where we are located</p>
+        </div>
+        <div id="map">
+
+        </div>
+    </div>
+
+
+    <div class="fam-pic">
+        <img src="family.png" class="img-fluid center-block">
+    </div>
+    <div class="team-text">
+        <p>We Can't Wait to Meat you</p>
+    </div>
+
+
+    <div id="popup">
+
+        <!-- and here comes the image -->
+        <img src="warning.png" alt="popup">
+        
+            <!-- Now this is the button which closes the popup-->
+            <button id="close">Close button</button>
+        
+            <!-- and finally we close the POPUP FRAME-->
+            <!-- everything on it will show up within the popup so you can add more things not just an image -->
+        </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC22DKg3ESiYoKvK1CW6X1ohiRdI4SCfyg&callback=initMap"
+        async defer></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+
+</html>

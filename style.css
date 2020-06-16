@@ -1,0 +1,124 @@
+#title {
+    margin: auto;
+}
+
+
+body {
+    background-color: #F7E800;
+}
+
+.navbar {
+    background-color: #95d244;
+}
+
+.nav-link {
+ font-family: amatic SC;
+ font-size: 40px;
+}
+
+.Burgers {
+    font-family: amatic SC;
+    font-size: 50px;
+}
+
+.team {
+    font-family: amatic SC;
+    font-size: 20px;
+}
+
+.logo-wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-wrapper col-8 {
+    margin: 190px;
+}
+
+.image {
+max-height: 90%;
+max-width: 90%;
+position: relative;
+margin: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin-top: 30px;
+
+
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  .Burgers p {
+      text-align: center;
+  }
+
+  div .team-text p {
+      text-align: center;
+  }
+
+  .team p {
+      text-align: center;
+  }
+
+  .team {
+      margin: 20px
+  }
+
+  .fam-pic {
+      text-align: center;
+      
+  }
+
+  .team-text {
+      text-align: center;
+      font-family: amatic SC;
+      font-size: 80px;
+  }
+
+  #map {
+      height: 400px;
+      width: 100%;
+  }
+
+  #anchor-location {
+      text-align: center;
+      font-family: amatic SC;
+      font-size: 60px;
+
+  }
+
+  #popup {
+    display:none;
+    position:fixed;
+    margin:0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+ 
+
+
